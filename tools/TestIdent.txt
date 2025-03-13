@@ -1,0 +1,4 @@
+# Identification payload 00 00
+# Should come back with my Delta Solivia 5.0AP-G3
+
+020601150000223F536F6C69766961352E3041502D4733002CEAF603
