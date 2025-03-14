@@ -118,9 +118,9 @@ float DeltaMsgStatistics63::getAcVoltageEnsControl(uint8_t* buffer) {
     return read2ByteUIntFactor(buffer, 81, 10);
 }
 
-// float DeltaMsgStatistics63::getAcFreqEnsControl(uint8_t* buffer) {
-//     return read2ByteUIntFactor(buffer, 83, 100);
-// }
+float DeltaMsgStatistics63::getAcFreqEnsControl(uint8_t* buffer) {
+    return read2ByteUIntFactor(buffer, 83, 100);
+}
 
 float DeltaMsgStatistics63::getDcInjectionCurrentEnsControl(uint8_t* buffer) {
     return read2ByteUIntFactor(buffer, 85, 1000);

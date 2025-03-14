@@ -58,7 +58,7 @@ class DeltaMsgStatistics63: public DeltaMsgBase {
     float getAcFreqAcControl(uint8_t* buffer);
     float getDcInjectionCurrentAcControl(uint8_t* buffer);
     float getAcVoltageEnsControl(uint8_t* buffer);
-    //float getAcFreqEnsControl(uint8_t* buffer);
+    float getAcFreqEnsControl(uint8_t* buffer);
     float getDcInjectionCurrentEnsControl(uint8_t* buffer);
     float getSolarCurrent1Max(uint8_t* buffer);
     uint16_t getSolarVoltage1Max(uint8_t* buffer);
